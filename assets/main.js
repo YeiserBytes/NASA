@@ -3,6 +3,7 @@ const Title = document.getElementById('title');
 const Img = document.getElementById('img')
 const Dates = document.getElementById('date')
 const Explanation = document.getElementById('explanation')
+const Copyright = document.getElementById('copyright')
 
 let ApiNasa = async () => {
     try {
@@ -14,11 +15,12 @@ let ApiNasa = async () => {
             console.log(data)
 
             Title.innerHTML = data.title
-            let imgHD = `${data.hdurl}`;
+            let imgHD = `${data.url}`;
             let img = `${data.url}` 
             Img.src = imgHD;
-            Dates.innerHTML = `Date: ${data.date}`
+            Dates.innerHTML = data.date
             Explanation.innerHTML = data.explanation
+            Copyright.innerHTML = data.copyright
 
         } else if (res.status === 403) {
             console.log("Su key esta mal escrita o no es valida")
@@ -31,17 +33,6 @@ let ApiNasa = async () => {
     } catch (error) {
         console.log(error)
     }
-}
-
-function Reloj() {
-    DateNow = new Date()
-    h = DateNow.getHours()
-    m = DateNow.getMinutes()
-    s = DateNow.getSeconds()
-
-    var DatePrint = h + ":" + m + ":" + s
-    document.formReloj.reloj.value = DatePrint
-    setTimeout(`Reloj()`, 1000)
 }
 
 ApiNasa();
