@@ -28,9 +28,3 @@ Este es el resultado final del proyecto:
 ## Gracias
 
 Este codigo tomo tiempo y esfuerzo te agradesco por verlo. Si quieres apoyarme haslo dandome una estrella.
-
-## Mis Redes
-
-- Twitter: [@YeiserJiménez2](https://twitter.com/YeiserJimnez2)
-
-- Instagram: [@yeisel_heriel](https://www.instagram.com/yeisel_heriel/)
