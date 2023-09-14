@@ -1,30 +1,27 @@
 # Nasa API - Project
 
-Este es un proyecto personal del uso de una API publica de la [Nasa](https://api.nasa.gov/). Me gusto este proyecto ya que siempre me gusta todo lo relacionado con el espacio.
+Este es un proyecto personal que utiliza la API pública de la [NASA](https://api.nasa.gov/). Me apasiona todo lo relacionado con el espacio, y este proyecto me brinda la oportunidad de explorar los datos fascinantes que la [NASA](https://nasa.gov/) comparte con el mundo.
 
-## Screenshot
+## 🌌 Preview
 
-Este es el resultado final del proyecto:
+![Preview](/preview.png)
+¡Aquí tienes una vista previa del resultado final del proyecto!
 
-![](/assets/img/Screenshot.png)
+## ⚡ Proceso de Desarrollo
 
-## Mi prosesos
+A continuación, se detallan los pasos que seguí para desarrollar este proyecto utilizando React y Vite:
 
-1. comence creando los archivos y carpetas que utilizaria e iniciando la configuracion de mi repositorio.
+1. **Configuración Inicial**: Comencé creando la estructura de archivos y carpetas necesaria para el proyecto, e inicié la configuración de mi repositorio en GitHub.
+2. **Obtención de API Key**: Para acceder a la API de la NASA, visité [api.nasa.gov](https://api.nasa.gov/) y proporcioné la información requerida, como mi nombre, apellido y correo electrónico. A cambio, obtuve una clave de API que me permitió realizar solicitudes a la API.
+3. **Pruebas con la API**: Realicé pruebas iniciales con la API para comprender cómo funcionaba y qué datos podía obtener. Esto me ayudó a planificar cómo estructurar los componentes que utilizarían los datos de la API.
+4. **Desarrollo de Componentes React**: Inicié la creación de los componentes necesarios para mostrar los datos de la API en la interfaz de usuario. Utilicé React para construir estos componentes de manera eficiente y modular.
 
-2. Despues busque la API que esta en: [{ NASA APIs }](https://api.nasa.gov/), ya que entras solo te piden; tu nombre y apellido y tu correo electronico. Ya que se los das de devuelven tu key.
+## 👨‍💻 Lecciones Aprendidas
 
-3. Despues realise pruebas con la API y ya que sabia que haria, inicie con los componentes que tendran los parametros de la API.
+Durante el desarrollo de este proyecto, adquirí valiosos conocimientos y habilidades:
 
-4. Para concluir realise los estilos con SASS/SCSS porque me es mas rapido (Cabe destacar que si quieres usar CSS nativo no hay problema). 
+1. **Consumo de API**: Reforcé mis habilidades en el consumo de APIs y cómo mostrar los datos obtenidos en la interfaz de usuario de una aplicación web.
 
-## Que aprendi
+## 🙏 Agradecimientos
 
-1. Reforce lo que sabia de como consumir una API e imprimirlo en pantalla.
-
-2. Tambien a como realizar un Reloj con Vanilla JavaScript.
-
-
-## Gracias
-
-Este codigo tomo tiempo y esfuerzo te agradesco por verlo. Si quieres apoyarme haslo dandome una estrella.
+Este proyecto demandó tiempo y esfuerzo, y agradezco sinceramente que lo hayas revisado. Si te gustó o encontraste útil, ¡te invito a apoyarme dándole una estrella en el repositorio! Tu apoyo significa mucho para mí y me motiva a seguir explorando y compartiendo proyectos interesantes como este.
