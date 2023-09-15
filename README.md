@@ -1,6 +1,6 @@
 # Nasa API - Project
 
-Este es un proyecto personal que utiliza la API pública de la [NASA](https://api.nasa.gov/). Me apasiona todo lo relacionado con el espacio, y este proyecto me brinda la oportunidad de explorar los datos fascinantes que la [NASA](https://nasa.gov/) comparte con el mundo.
+Este es un proyecto personal que utiliza la API pública de la [NASA](https://api.nasa.gov/). Me apasiona todo lo relacionado con el espacio, y este proyecto me brinda la oportunidad de explorar los datos fascinantes que la [**NASA**](https://nasa.gov/) comparte con el mundo.
 
 ## 🌌 Preview
 
